@@ -1,0 +1,7 @@
+# old /etc/passwd: craftbukkit:x:115:1001::/home/craftbukkit:/bin/false
+
+groupadd craftbukkit-adm
+useradd craftbukkit --uid 115 --groups craftbukkit-adm --create-home --system --shell /bin/false
+usermod -aG craftbukkit-adm rieko
+chgrp -R craftbukkit-adm /usr/share/craftbukkit
+chmod -R g+w /usr/share/craftbukkit
