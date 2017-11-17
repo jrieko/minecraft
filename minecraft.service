@@ -1,10 +1,10 @@
 [Unit]
-Description=Craftbukkit
+Description=Spigot Minecraft server
 #After=network.target auditd.service syslog.target
 
 [Service]
 Type=simple
-ExecStart=/usr/share/craftbukkit/craftbukkit
+ExecStart=/usr/share/craftbukkit/server
 KillMode=process
 Restart=no
 StandardOutput=syslog
