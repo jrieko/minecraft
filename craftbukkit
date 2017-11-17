@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export JAVA_HOME=/usr/lib/jvm/latest
+export JAVA_HOME=/usr/lib/jvm/jdk-8
 
 cd "$(dirname $(readlink -f $0))"
 ${JAVA_HOME}/bin/java -server -Xms2G -Xmx6G -XX:+UseG1GC -jar craftbukkit.jar -o true

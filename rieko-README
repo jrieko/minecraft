@@ -1,5 +1,7 @@
 # old /etc/passwd: craftbukkit:x:115:1001::/home/craftbukkit:/bin/false
 
+cd /usr/lib/jvm
+ln -s java-8-oracle jdk-8
 groupadd craftbukkit-adm
 useradd craftbukkit --uid 115 --groups craftbukkit-adm --create-home --system --shell /bin/false
 usermod -aG craftbukkit-adm rieko
