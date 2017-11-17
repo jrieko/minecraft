@@ -1,0 +1,18 @@
+[Unit]
+Description=Craftbukkit
+#After=network.target auditd.service syslog.target
+
+[Service]
+Type=simple
+ExecStart=/usr/share/craftbukkit/craftbukkit
+KillMode=process
+Restart=no
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=minecraft
+User=craftbukkit
+Group=craftbukkit-adm
+
+[Install]
+#WantedBy=multi-user.target
+Alias=minecraft.service
