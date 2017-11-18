@@ -11,10 +11,7 @@
 # Bug tracker: http://www.spigotmc.org/go/bugs
 
 command-block-overrides: []
+unrestricted-advancements: false
 aliases:
   icanhasbukkit:
   - version $1-
-  tpoldhome:
-  - tp -65 65 248
-  tphome:
-  - tp 1316 152 -1525
