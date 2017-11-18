@@ -8,8 +8,8 @@
   {
     "uuid": "544566a6-8511-4f3f-8225-534416f69bd0",
     "name": "jrieko",
-    "level": 1,
-    "bypassesPlayerLimit": false
+    "level": 4,
+    "bypassesPlayerLimit": true
   },
   {
     "uuid": "d81ebe43-2867-4eba-88d8-e888b6c305c2",
