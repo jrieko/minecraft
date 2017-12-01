@@ -1,0 +1,4 @@
+[submodule "plugins/BiomeBundle"]
+	path = plugins/BiomeBundle
+	url = https://github.com/BiomeBundle/BiomeBundle.git
+	branch = BiomeBundleV6

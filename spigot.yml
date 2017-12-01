@@ -40,7 +40,7 @@ commands:
   log: true
   spam-exclusions:
   - /skill
-  silent-commandblock-console: false
+  silent-commandblock-console: true
   replace-commands:
   - setblock
   - summon
@@ -63,8 +63,6 @@ stats:
 world-settings:
   default:
     verbose: true
-    save-structure-info: true
-    mob-spawn-range: 4
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -91,7 +89,9 @@ world-settings:
       hopper-check: 1
     hopper-amount: 10
     random-light-updates: false
+    save-structure-info: true
     dragon-death-sound-radius: 0
+    mob-spawn-range: 4
     seed-village: 10387312
     seed-feature: 14357617
     seed-monument: 10387313
@@ -108,7 +108,7 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
-    item-despawn-rate: 3600
+    item-despawn-rate: 12000
     merge-radius:
       item: 2.5
       exp: 3.0
